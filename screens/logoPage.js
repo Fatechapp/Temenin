@@ -1,12 +1,12 @@
 import React from "react";
-import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
+import { StyleSheet, View, Text, TouchableOpacity, Image } from "react-native";
 
 export default function LogoPage() {
     return (
         <View style={styles.container}>
         <View style={styles.logoSection}>
             <Text style={styles.namaAplikasi}>TEMENIN</Text>
-            <Image style={styles.logoTemenin} source={require('./assets/logo-temenin.png')}/>
+            <Image style={styles.logoTemenin} source={require('../assets/logo-temenin.png')}/>
             <Text style={styles.logoSectionText}>Find peace, be mindful, spread love, and strive to understand others. Look for what brings us together rather than what sets us apart. </Text>
         </View>
         <TouchableOpacity style={styles.button}>
